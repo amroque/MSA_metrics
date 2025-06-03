@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MSA:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MSA_jar</output-path>
+    <root id="archive" name="MSA_jar.jar">
+      <element id="module-output" name="MSA" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
