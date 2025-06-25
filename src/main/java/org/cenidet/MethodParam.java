@@ -74,10 +74,10 @@ private String methodname;
     }
 
     public void setParamsOPR(List<String> paramsOPR) {
+
         this.paramsOPR = paramsOPR;
+
     }
-
-
     public String getMethodname() {
         return methodname;
     }

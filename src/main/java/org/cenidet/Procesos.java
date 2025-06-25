@@ -25,6 +25,7 @@ public class Procesos {
     double totalSGM;
     private List<MethodParam> IPRlist = new ArrayList<>();
     private final List<Double> totalSGMList = new ArrayList<>();
+   MethodParam temp = null;
 
     public Procesos() {}
 
@@ -170,7 +171,7 @@ public class Procesos {
         if(methods.isEmpty()) {
             cadena.append("\tNo hay métodos\n");
         } else {
-            MethodParam temp = null;
+            //MethodParam temp = null;
             int cont = 1, contParams = 0, contReturns = 0;
             for(String method : methods) {
                 cadena.append("\tMétodo ")
